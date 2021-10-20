@@ -1,0 +1,6 @@
+n = input("整数を入力してください：")
+n = int(n)
+l = range(1, n+1)
+ans = sum(l)
+print('1~{}までの合計：{}'.format(n, ans))
+print('平均：{}'.format(ans/n))
