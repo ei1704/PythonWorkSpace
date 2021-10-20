@@ -2,6 +2,7 @@
 
 10/20 Python基礎
 
+<<<<<<< HEAD
                                                                                  +++++++++-(-...          ....(+++++z++.
                                                                             ... (llllllllllllllllz(((+Jlllllllllllllllll.....
                                                                       .(Jlllllllllllllll=llllllllllllllllllllllllllllllllllllll(i-.
@@ -140,3 +141,6 @@ WMMMMMMM#                   .lll=llllll=lllllllllllll=ll=ll=ll=ll=ll=ll=ll=ll=ll
         .dMMMMMMMMM#' (lll=ll=ll=ll=llllllllllll=ll=ll=ll=lllllllllllllllllllllllllllllll=llllll=ll=llllllllllllllllllll=ll=ll=ll=ll=lllllllllllllllllllllllllllllllllllllll=ll=ll_"MMMMMMMMMNJ,
      ..NMMMMMMMMM#^    ! +lllllllllll=ll=ll=llllllllllllll=ll=lll=ll=ll=ll=ll=ll=ll=ll=llll=lllllllll=ll=ll=ll=ll=ll=lllllllllllllllll=ll=ll=ll=ll=ll=ll=ll=ll=ll=ll=ll=lllllll:!   .TMMMMMMMMMMm.
     .MMMMMMMMMMM#`       +ll=ll=ll=llllllllll=ll=ll=ll=llllllll=llllllllllllllllllllllll=llll=ll=lllllllllllllllllllll=ll=ll=ll=ll=lllllllllllllllllllllllllllllllllllll=ll=llv!      7MMMMMMMMMMMN-
+=======
+10/20 part2
+>>>>>>> 4e7f2f42de6360691cca1b785544febe23af4b2b
