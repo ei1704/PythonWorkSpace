@@ -1,0 +1,12 @@
+while True:
+    str = input("好きな文字を入力してください：")
+    if str == "":
+        break
+    elif str.isdecimal():
+        print("数字")
+    elif str.isalpha():
+        print("アルファベット")
+    elif str.isalnum():
+        print("アルファベットと数字")
+    else:
+        print("その他")
