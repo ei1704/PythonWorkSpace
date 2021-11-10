@@ -1,7 +1,9 @@
 import os
 
-if os.path.exists('files/word.txt'):
-    with open('files/word.txt', 'r') as f:
+path = 'files/word.txt'
+
+if os.path.exists(path):
+    with open(path, 'r') as f:
         cnt = 1
         for line in f:
             temp = line.strip()
