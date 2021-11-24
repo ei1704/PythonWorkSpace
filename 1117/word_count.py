@@ -15,4 +15,4 @@ if os.path.exists('files/word_list.txt'):
         word_list = sorted(word_list.items())
         for i in word_list:
             key, val = i
-            print("{}:{}".format(key, val))
+            print("{:15s}:{}".format(key, val))
