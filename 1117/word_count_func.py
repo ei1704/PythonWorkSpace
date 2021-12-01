@@ -7,7 +7,7 @@ if os.path.exists('files/sentence.txt'):
     with open('files/sentence.txt', 'r') as f:
         for line in f:
             temp = re.split('[^\w?!\']', line)
-            # print(temp)
+            print(temp)
             for i in temp:
                 if i == "":
                     continue
