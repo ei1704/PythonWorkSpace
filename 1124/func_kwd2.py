@@ -8,6 +8,14 @@ def check_shopping(**kwargs):
     return flg
 
 
+def check_shopping2(**kwargs):
+    min_price = min(kwargs.values())
+    if min_price < 100:
+        return False
+    else:
+        return True
+
+
     # main
 dic_order = {}
 while True:
@@ -23,7 +31,7 @@ while True:
         print("数値以外が入力されました")
         continue
     dic_order[product_name] = product_price
-if check_shopping(**dic_order):
+if check_shopping2(**dic_order):
     print('\n全てのデータは問題ありませんでした')
 else:
     print('\n最低価格を下回った商品があります。')
