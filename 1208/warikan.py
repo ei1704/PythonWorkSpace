@@ -2,16 +2,15 @@ import math
 
 def input_init(message):
   a = input(message+":")
-  return int(a)
+  if a.isdecimal():
+    a = int(a)
+  else:
+    a = 0
+  return a
 
 def calc_payment(val,pep):
-  avg = val/pep
-  a,b=divmod(avg,100)
-  a*=100
-  res = {"支払金額":int(a)}
-  if b > 0: 
-    res["支払金額"]+=100
-  res["幹事金額"] = int(val - (pep -1) * res["支払金額"])
+  res = {"支払金額":math.ceil(val/(pep*100))*100}
+  res["幹事金額"] = val - (pep -1) * res["支払金額"]
   return res
 
 def output_payment(one_pay,re_pay,pep):
